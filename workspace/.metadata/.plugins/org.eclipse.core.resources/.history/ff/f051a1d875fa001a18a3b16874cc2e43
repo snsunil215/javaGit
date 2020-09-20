@@ -1,0 +1,9 @@
+package com.java.practise.objectCreation.examples;
+
+public class WaysToCreateObject {
+
+	public static void main(String[] args) {
+
+	}
+
+}

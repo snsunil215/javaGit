@@ -1,0 +1,30 @@
+package com.java.practise.objectCreation.examples;
+
+import java.lang.reflect.Constructor;
+
+import com.java.practise.pojos.Employee;
+
+public class WaysToCreateObject {
+	public static void main(String[] args) throws Exception {
+		// Step-1: Using new Keyword
+		Employee emp = new Employee();
+		emp.setEmployeeId(12345);
+		emp.setEmployeeName("Rajendra");
+		System.out.println(emp.toString());
+		// Step-2: Using Class.forName() and instanceof method
+		String className = "com.java.practise.pojos.Employee";
+		Class clazz = Class.forName(className);
+		emp = (Employee) clazz.getDeclaredConstructor().newInstance();
+		emp.setEmployeeId(4567);
+		emp.setEmployeeName("Srikanth");
+		System.out.println(emp.toString());
+
+		// Step-3: Using reflections
+		Constructor<Employee> constructor = Employee.class.getConstructor();
+		emp = constructor.newInstance();
+		emp.setEmployeeId(7890);
+		emp.setEmployeeName("Purna Chandra Rao");
+		System.out.println(emp.toString());
+
+	}
+}

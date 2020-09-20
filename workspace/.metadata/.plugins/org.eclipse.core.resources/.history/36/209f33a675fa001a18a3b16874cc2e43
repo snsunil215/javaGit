@@ -1,0 +1,6 @@
+package com.java.practise.pojos;
+
+public class Employee {
+	Integer employeeId;
+	String employeeName;
+}

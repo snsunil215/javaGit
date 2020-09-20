@@ -1,0 +1,11 @@
+package com.java.practise.objectCreation.examples;
+
+import com.java.practise.pojos.Employee;
+
+public class WaysToCreateObject {
+	public static void main(String[] args) {
+		// Step-1: Using new Keyword
+		Employee emp = new Employee();
+		
+	}
+}

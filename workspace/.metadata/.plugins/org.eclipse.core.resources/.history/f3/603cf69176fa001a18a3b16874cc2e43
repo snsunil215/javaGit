@@ -1,0 +1,17 @@
+package com.java.practise.objectCreation.examples;
+
+import com.java.practise.pojos.Employee;
+
+public class WaysToCreateObject {
+	public static void main(String[] args) throws Exception {
+		// Step-1: Using new Keyword
+		Employee emp = new Employee();
+		emp.setEmployeeId(12345);
+		emp.setEmployeeName("Rajendra");
+		
+		// Step-2: Using Class.forName() and instanceof method
+		String className = "com.java.practise.pojos.Employee";
+		Class clazz = Class.forName(className);
+		emp 
+	}
+}
