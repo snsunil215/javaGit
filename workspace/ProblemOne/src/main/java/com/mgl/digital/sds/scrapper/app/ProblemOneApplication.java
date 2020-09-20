@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class ProblemOneApplication {
-	
+
 	private static final Logger LOGGER = LoggerFactory.getLogger(ProblemOneApplication.class);
 
 	/**

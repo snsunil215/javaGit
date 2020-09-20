@@ -15,7 +15,7 @@ import com.mgl.digital.sds.scrapper.app.service.YourTargetNumberService;
  */
 @SpringBootApplication
 public class ProblemTwoApplication {
-	
+
 	/** The Constant LOGGER. */
 	private static final Logger LOGGER = LoggerFactory.getLogger(ProblemTwoApplication.class);
 
@@ -27,8 +27,7 @@ public class ProblemTwoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProblemTwoApplication.class, args);
 		int arr[] = { 0, 29, 10, 8, 19, 2 };
-		int target = 37;
-
+		int target = 100;
 		YourTargetNumberService numserv = new YourTargetNumberService();
 		List<Integer> result = new ArrayList<>();
 		for (int element : numserv.indices(arr, target)) {

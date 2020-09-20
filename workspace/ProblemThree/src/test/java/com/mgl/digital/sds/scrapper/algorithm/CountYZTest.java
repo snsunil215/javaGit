@@ -37,6 +37,7 @@ public class CountYZTest {
 	 */
 	@Test
 	public void shouldPass() throws Exception {
+
 		assertEquals(2, countYZ("fez day"));
 		assertEquals(2, countYZ("day fez"));
 		assertEquals(1, countYZ("day yak"));
@@ -45,6 +46,7 @@ public class CountYZTest {
 		assertEquals(2, countYZ("DAY abc XYZ"));
 		assertEquals(3, countYZ("aaz yyz my"));
 		assertEquals(2, countYZ("y2bz"));
-		assertEquals(0, countYZ("zxyx"));
+
+		assertEquals(1, countYZ("z1xyx"));
 	}
 }

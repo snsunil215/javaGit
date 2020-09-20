@@ -44,19 +44,22 @@ public class JUnitProblemOneTest {
 		List<Integer> unexpected = new ArrayList<>();
 		unexpected.add(9);
 		unexpected.add(25);
+		Integer min = 0;
+		Integer max = 0;
+		Integer limit = 0;
 
-		Map<String, Object> map = numService.getNumbers();
+		Map<String, Object> map = numService.getNumbers(min, max, limit);
 
 		// Checks if two primitive types or objects are equal.
 		assertEquals(expected, map.get("data"));
 
 		// Assert that expected and actual are not equal.
 		assertNotEquals(unexpected, map.get("data"));
-		
+
 		assertTrue(map.get("data") != null);
-		
+
 		assertFalse(map.get("data") == null);
-		
+
 		assertNotNull(map.get("data"));
 
 	}

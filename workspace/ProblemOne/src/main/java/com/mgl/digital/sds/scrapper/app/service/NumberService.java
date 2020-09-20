@@ -10,7 +10,10 @@ public interface NumberService {
 	/**
 	 * Gets the numbers.
 	 *
+	 * @param min   the min
+	 * @param max   the max
+	 * @param limit the limit
 	 * @return the numbers
 	 */
-	Map<String, Object> getNumbers();
+	Map<String, Object> getNumbers(Integer min, Integer max, Integer limit);
 }
