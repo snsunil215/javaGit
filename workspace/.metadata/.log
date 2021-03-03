@@ -2915,3 +2915,39 @@ java.io.FileNotFoundException: F:\backup\Github\javaGit\workspace\.metadata\.plu
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 21:45:11.348
 !MESSAGE executing callback sts4.classpath.UoDrBAKc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:52.485
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:52.498
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:52.499
+!MESSAGE buffering callback sts4.classpath.UoDrBAKc ComparableAndComparator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:52.500
+!MESSAGE executing callback sts4.classpath.UoDrBAKc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:52.514
+!MESSAGE executing callback sts4.classpath.UoDrBAKc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:53.451
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:53.456
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:53.465
+!MESSAGE buffering callback sts4.classpath.UoDrBAKc ComparableAndComparator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:53.466
+!MESSAGE executing callback sts4.classpath.UoDrBAKc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-03 22:44:53.520
+!MESSAGE executing callback sts4.classpath.UoDrBAKc SUCCESS [done]
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2021-03-03 22:45:00.583
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.ui 2 2 2021-03-03 22:49:48.672
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
